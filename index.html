@@ -15,12 +15,21 @@
 
     var tree = new Tree();
     tree.insertNode(4);
+    tree.insertNode(3);
+    tree.insertNode(2);
+    tree.insertNode(1);
     tree.insertNode(0);
     tree.insertNode(3);
     tree.insertNode(50);
     tree.insertNode(30);
 
+
+    var min = tree.findeMin();
+    var max = tree.findeMax();
+
     console.log(tree);
+    console.log(min);
+    console.log(max);
   })();
   </script>
 </body>
